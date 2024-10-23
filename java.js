@@ -511,4 +511,38 @@ document.write("The total amount will be : "+((65-15)*3)+" for "+maximumAge+" ye
 // }                                                                                                                                                                                                                                                                            
 
 
-
+//                              ARRAYS
+//                                         Q#01
+let studentNames = [];  //using literal notation
+//                                         Q#02
+//let studentNames = new Array();  //object notation
+//                                         Q#03
+let animals = ["bandar","cheeta","kutta","hathee"]
+//                                         Q#04
+let numbers = [1,2,3,4,5]
+//                                         Q#05
+let boleanArray = [true,false,true]
+//                                         Q#06
+let mixedArray = [1,"billo",true,undefined,null,10.1]
+//                                         Q#07
+let qualifications = ['SSC', 'HSC', "BCS",'BS', "BCOM", "MS", "M. Phil.", "PhD"]
+let headingForQualifications = document.createElement("h1")
+headingForQualifications.innerText = "Qualifications !"
+document.body.appendChild(headingForQualifications)
+for (let i = 0; i < qualifications.length; i++) {
+    let span = document.createElement("span")
+    span.innerText = (i+1)+") "+qualifications[i]
+    document.body.appendChild(span)
+    document.body.appendChild(document.createElement("br"))
+}
+//                                         Q#08
+let studentArray = []
+let studentMarks =[]
+for(let i=0;i<3;i++){
+    studentArray.push(prompt("Enter the name of " +(i+1)+ " student !"))
+    studentMarks.push(+prompt("Enter the marks of "+(i+1)+" student !"))
+    let percentage = studentMarks[i]*100/500
+    let studentMarksAndTheirNames = document.createElement("h3")
+    studentMarksAndTheirNames.innerText = "Score of "+studentArray[i]+" is "+studentMarks+". Percentage is "+percentage+"%."
+    document.body.appendChild(studentMarksAndTheirNames)
+}
