@@ -595,4 +595,34 @@ document.write("The total amount will be : "+((65-15)*3)+" for "+maximumAge+" ye
 //             document.write("<h3>Invalid index provided. No colors deleted.</h3><br>");
 //         }
 // document.write("<h3>Updated color after the deletion.</h3>"+colors)
-// //                                         Q#10
+// // //                                         Q#10
+// let scoreOfStudents = [324,654,343,123,432,321]
+// let scoreOfStudentsUnSorted = document.createElement("h3")
+// scoreOfStudentsUnSorted.innerText = "Scores of students not sorted , "+scoreOfStudents.sort()
+// document.body.appendChild(scoreOfStudentsUnSorted)
+// let scoreOfStudentsHeading = document.createElement("h3")
+// scoreOfStudentsHeading.innerText = "Scores of students sorted , "+scoreOfStudents.sort()
+// document.body.appendChild(scoreOfStudentsHeading)
+// //                                         Q#11
+// let cities = ["karchi","Isl","Newyork","queta","Peshawar"]
+// document.write("This the cities : <br>"+cities+"<br>")
+// document.write("First three cities: <br>"+cities.slice(0,3))
+// //                                         Q#12
+// let arr = ["This","is","my","cat"];
+// document.write(arr.join(" "))
+// //                                         Q#13
+// let arr = ["Cat","Car","Crash","Cute"]
+// for(let i=0;i<arr.length;i++){
+//    document.write("Out:<br> "+arr[i]+"<br>")
+// }
+// //                                         Q#14
+// let arr = ["Cat","Car","Crash","Cute"]
+// for(let i=arr.length-1;i>-1;i--){
+//    document.write("Out:<br> "+arr[i]+"<br>")
+// }
+// //                                         Q#15
+// let manufacturers = ["Apple", "Samsung", "Motorola", "Nokia", "Sony", "Haier"];
+// document.write("<select>");
+// for (let i = 0; i < manufacturers.length; i++) {
+//     document.write("<option>" + manufacturers[i] + "</option>");
+// }
