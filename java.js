@@ -511,38 +511,88 @@ document.write("The total amount will be : "+((65-15)*3)+" for "+maximumAge+" ye
 // }                                                                                                                                                                                                                                                                            
 
 
-//                              ARRAYS
-//                                         Q#01
-let studentNames = [];  //using literal notation
-//                                         Q#02
-//let studentNames = new Array();  //object notation
-//                                         Q#03
-let animals = ["bandar","cheeta","kutta","hathee"]
-//                                         Q#04
-let numbers = [1,2,3,4,5]
-//                                         Q#05
-let boleanArray = [true,false,true]
-//                                         Q#06
-let mixedArray = [1,"billo",true,undefined,null,10.1]
-//                                         Q#07
-let qualifications = ['SSC', 'HSC', "BCS",'BS', "BCOM", "MS", "M. Phil.", "PhD"]
-let headingForQualifications = document.createElement("h1")
-headingForQualifications.innerText = "Qualifications !"
-document.body.appendChild(headingForQualifications)
-for (let i = 0; i < qualifications.length; i++) {
-    let span = document.createElement("span")
-    span.innerText = (i+1)+") "+qualifications[i]
-    document.body.appendChild(span)
-    document.body.appendChild(document.createElement("br"))
-}
-//                                         Q#08
-let studentArray = []
-let studentMarks =[]
-for(let i=0;i<3;i++){
-    studentArray.push(prompt("Enter the name of " +(i+1)+ " student !"))
-    studentMarks.push(+prompt("Enter the marks of "+(i+1)+" student !"))
-    let percentage = studentMarks[i]*100/500
-    let studentMarksAndTheirNames = document.createElement("h3")
-    studentMarksAndTheirNames.innerText = "Score of "+studentArray[i]+" is "+studentMarks+". Percentage is "+percentage+"%."
-    document.body.appendChild(studentMarksAndTheirNames)
-}
+// //                              ARRAYS
+// //                                         Q#01
+// let studentNames = [];  //using literal notation
+// //                                         Q#02
+// //let studentNames = new Array();  //object notation
+// //                                         Q#03
+// let animals = ["bandar","cheeta","kutta","hathee"]
+// //                                         Q#04
+// let numbers = [1,2,3,4,5]
+// //                                         Q#05
+// let boleanArray = [true,false,true]
+// //                                         Q#06
+// let mixedArray = [1,"billo",true,undefined,null,10.1]
+// //                                         Q#07
+// let qualifications = ['SSC', 'HSC', "BCS",'BS', "BCOM", "MS", "M. Phil.", "PhD"]
+// let headingForQualifications = document.createElement("h1")
+// headingForQualifications.innerText = "Qualifications !"
+// document.body.appendChild(headingForQualifications)
+// for (let i = 0; i < qualifications.length; i++) {
+//     let span = document.createElement("span")
+//     span.innerText = (i+1)+") "+qualifications[i]
+//     document.body.appendChild(span)
+//     document.body.appendChild(document.createElement("br"))
+// }
+// //                                         Q#08
+// let studentArray = []
+// let studentMarks =[]
+// for(let i=0;i<3;i++){
+//     studentArray.push(prompt("Enter the name of " +(i+1)+ " student !"))
+//     studentMarks.push(+prompt("Enter the marks of "+(i+1)+" student !"))
+//     let percentage = studentMarks[i]*100/500
+//     let studentMarksAndTheirNames = document.createElement("h3")
+//     studentMarksAndTheirNames.innerText = "Score of "+studentArray[i]+" is "+studentMarks+". Percentage is "+percentage+"%."
+//     document.body.appendChild(studentMarksAndTheirNames)
+// }
+// // //                                         Q#09
+// let colors = ["green","red","pink","brown"]
+// let h1Colors = document.createElement("h1")
+// h1Colors.innerText = colors;
+// document.body.appendChild(h1Colors)
+// //code for to add at he start
+// let colorToAdd = prompt("Which color you want to add in the start !")
+// colors.unshift(colorToAdd);
+// let afterAddingColor = document.createElement("h3")
+// afterAddingColor.innerText = "Color added at the start, "+colors;
+// document.body.appendChild(afterAddingColor)
+// //code for the end
+// let colorToTheEnd = prompt("Enter the color you want to add at the end !")
+// colors.push(colorToTheEnd)
+// let colorToTheEndH3 = document.createElement("h3")
+// colorToTheEndH3.innerText = "Added color at the end, "+ colors
+// document.body.appendChild(colorToTheEndH3)
+// //two new colors added
+// colors.unshift("Voilet","purple")
+// let twoColorsAdded = document.createElement("h3")
+// twoColorsAdded.innerText = "Two Added color at the start, "+ colors
+// document.body.appendChild(twoColorsAdded)
+// //first color deeleted
+// colors.shift()
+// let firstColorDelete = document.createElement("h3")
+// firstColorDelete.innerText = "First color deleted at the start, "+ colors
+// document.body.appendChild(firstColorDelete)
+// //delte last color
+// colors.pop()
+// let lastColorDelete = document.createElement("h3")
+// lastColorDelete.innerText = "Last color deleted, "+ colors
+// document.body.appendChild(lastColorDelete)
+// //at which color to be added
+// let index = +prompt("At which index you want to add the color Black !")
+// colors[index] = "Black"
+// let blackColorsAdded = document.createElement("h3")
+// blackColorsAdded.innerText = "Black color added at that index:"+index+" "+ colors
+// document.body.appendChild(blackColorsAdded)
+// //index to which length delete
+// let indexToDelete = prompt("At which index do you want to delete color(s)? (0-based index)");
+// let numOfColorsToDelete = prompt("How many colors do you want to delete?");
+// indexToDelete = parseInt(indexToDelete);
+// numOfColorsToDelete = parseInt(numOfColorsToDelete);
+// if (indexToDelete >= 0 && indexToDelete < colors.length) {
+//         colors.splice(indexToDelete, numOfColorsToDelete);
+//         } else {
+//             document.write("<h3>Invalid index provided. No colors deleted.</h3><br>");
+//         }
+// document.write("<h3>Updated color after the deletion.</h3>"+colors)
+// //                                         Q#10
