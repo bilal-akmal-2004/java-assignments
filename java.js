@@ -626,3 +626,83 @@ document.write("The total amount will be : "+((65-15)*3)+" for "+maximumAge+" ye
 // for (let i = 0; i < manufacturers.length; i++) {
 //     document.write("<option>" + manufacturers[i] + "</option>");
 // }
+
+ // //                              ARRAYS
+// //                                         Q#01
+//  let multDimArray = [[],[],[]]
+// //                                         Q#02
+// multDimArray[0].push(0,1,2,3)
+// multDimArray[1].push(1,0,1,2)
+// multDimArray[2].push(2,1,0,1)
+// console.log(multDimArray)
+// //                                         Q#03
+// for(let i=0;i<10;i++){
+// console.log(i+1)
+// }
+// //                                         Q#04
+// let tableNumber = +prompt("Enter the table number !")
+// let lengthOfTable = +prompt("Enter the length of table number !")
+// for(let i=0;i<lengthOfTable;i++){
+//      console.log(tableNumber+" x "+(i+1)+" = "+(tableNumber*(i+1)));
+// }
+// //                                         Q#05
+// let fruits = ["apple", "banana", "mango", "orange", "strawberry"];
+// for (let i = 0; i < fruits.length; i++) {
+//     console.log("At index "+i+" :"+fruits[i]);
+// }
+// //                                         Q#06
+// document.write("<h1>Couting<h1>")
+// for(let i =0;i<15;i++){
+//     document.write((i+1)+",")
+// }
+// document.write("<h1>Reverse couting !<h1>")
+// for(let i=15;i>0;i--){
+//     document.write((i)+",")
+// }
+// document.write("<h1>Even couting !<h1>")
+// for(let i =2;i<20;i+=2){
+//     document.write((i)+",")
+// }
+// document.write("<h1>Odd couting !<h1>")
+// for(let i =3;i<23;i+=3){
+//     document.write((i)+",")
+// }
+// document.write("<h1>Even couting !<h1>")
+// for(let i =2;i<22;i+=2){
+//     document.write((i)+"k,")
+// }
+// //                                         Q#07
+// let a = ["cake","pizza","iceCream","pastery"]
+// let userInput = prompt("Enter the food you need !")
+// userInput = userInput.toLocaleLowerCase()
+// if(a.includes(userInput)){
+//           document.write(`<h1>${userInput} is availbe at index : ${a.indexOf(userInput)}</h1>`)
+// }else{
+//     document.write(`<h1>${userInput} is not availbe!`)
+// }
+// //                                         Q#08
+// let A = [24,100, 53, 78, 91, 12];
+// let largestNumber = 0;
+// console.log("Array Items :"+A)
+// for(let i=0;i<A.length;i++){
+//   if(largestNumber<A[i]){
+//     largestNumber=A[i]
+//   }
+// }
+// console.log("Largest number is :"+largestNumber)
+// //                                         Q#09
+// let A = [24,100, 53, 78, 91, 12,0];
+// let smallestNumber=100000;
+// console.log("Array Items :"+A)
+// for(let i=0;i<A.length;i++){
+//   if(smallestNumber>A[i]){
+//     smallestNumber=A[i]
+//   }
+// }
+// console.log("Largest number is :"+smallestNumber)
+// //                                         Q#10
+// for(let i=0;i<20;i++){
+//     console.log((5*(i+1))+",")
+// }
+
+// 21-25
