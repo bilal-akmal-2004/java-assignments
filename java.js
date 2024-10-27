@@ -705,4 +705,55 @@ document.write("The total amount will be : "+((65-15)*3)+" for "+maximumAge+" ye
 //     console.log((5*(i+1))+",")
 // }
 
-// 21-25
+ //                              STRING METHODS
+ //                                         Q#01
+// let firstName = prompt("Enter your first name:");
+// let lastName = prompt("Enter your last name:");
+// let fullName = firstName + " " + lastName;
+// alert("Hello, " + fullName + "!");
+//                                         Q#02
+// let favPhone = prompt("Enter the name ur favourate phone !")
+// console.log("Your fav phone is : "+favPhone+" and the length is : "+favPhone.length);
+//                                         Q#03
+// let country = "Pakistan"
+// console.log(country+" ,index of n is :"+country.indexOf("n"))
+//                                         Q#04
+// let word = "hello world"
+// console.log(word+" ,index of last l is :"+word.lastIndexOf("l"))
+                                        //Q#05
+// let country = "Pakistan"
+// console.log(country+" ,at index 3 is :"+country[3])
+//                                      Q#06
+// let firstName = prompt("Enter your first name:");
+// let lastName = prompt("Enter your last name:");
+// let fullName = firstName.concat(" ",lastName)
+// alert("Hello, " + fullName + "!");
+//                                      Q#07
+// let city1 = "Karachi"
+// console.log("City: "+city1)
+// console.log("City after replacement : "+ city1.replace("Karachi","Islamad"))
+//                                      Q#08
+// var message = "Ali and Sami are best friends. They play cricket and football together.";
+// console.log(message)
+// console.log("After replacement of & ! "+message.replace(/and/g,"&"))
+//                                      Q#09
+// let stringNumber = "472";
+// console.log(stringNumber+" Type is: "+typeof(stringNumber))
+// stringNumber = Number(stringNumber);
+// console.log(stringNumber+" Type is: "+typeof(stringNumber))
+//                                      Q#10
+// let userInput = prompt("Enter anything !")
+// console.log("User input : "+userInput)
+// console.log("User input in uppercase :"+userInput.toUpperCase())
+//                                      Q#11
+// let userInput = prompt("Enter anything !")
+// console.log("User input : "+userInput)
+// console.log("User input in title case :"+userInput[0].toUpperCase()+userInput.slice(1))
+//                                      Q#12
+// let num = 123.2;
+// console.log(typeof(String(num))+String(num))
+//                                      Q#13
+// let userInput = prompt("Enter !")
+// if(userInput.indexOf("@")!==-1 || userInput.indexOf("!")!==-1 ||userInput.indexOf("@")!==-1){
+// alert("Not allowed")
+// }
