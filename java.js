@@ -757,3 +757,41 @@ document.write("The total amount will be : "+((65-15)*3)+" for "+maximumAge+" ye
 // if(userInput.indexOf("@")!==-1 || userInput.indexOf("!")!==-1 ||userInput.indexOf("@")!==-1){
 // alert("Not allowed")
 // }
+//                                      Q#14
+// let a = ["cake", "apple pie", "cookie", "chips", "patties"]
+// let userInput = prompt("Enter the anything u want ! ")
+// for(let i=0;i<a.length;i++){
+//     if(userInput.toLowerCase()===a[i]){
+//             alert(`Yes we have ${userInput} at index: ${i}`)
+//     }
+// }  
+// alert("Not avialable !")
+//                                      Q#15
+// let password = prompt("Enter the passwrod !")
+// console.log(password.charCodeAt(0))
+// if(password.charCodeAt(0)>=48 || password.charCodeAt(0)<= 57){
+//      alert("No numbere allowed !")
+// }
+// if(password.length<6){
+//     alert("Password should be at least 6 character 1")
+// }
+//                                      Q#16
+// var university = "University of Karachi";
+// var universityArray = university.split("");
+// for(let i=0;i<university.length;i++){
+//     document.write(universityArray[i]+"<br>")
+// }
+// console.log(universityArray);
+//                                      Q#17
+// let lastCharacter = prompt("Enter any thing !")
+// console.log("Last character is : "+ lastCharacter.slice(-1))
+//                                      Q#18
+// let sentance = "The quick brown fox jumps over the lazy dog"
+// let count = 0;
+// sentance = sentance.toLowerCase()
+// for(let i=0;i<sentance.length;i++){
+//           if((sentance.slice(i,i+3))==="the"){
+//                   count++
+//           }
+// }
+// console.log("The ocurance of the is : "+count)
